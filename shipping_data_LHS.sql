@@ -86,10 +86,10 @@ VALUES
 ('200006', 9, 8, 20, 5467, 'Sea Dragon');
 INSERT INTO Container
 VALUES
-('400002', 9, 8, 20, 2914, 'Hmm Gloria');
+('400002', 9, 8, 40, 2914, 'Hmm Gloria');
 INSERT INTO Container
 VALUES
-('100001', 9, 8, 20, 1914, 'High Seas');
+('100001', 9, 8, 10, 1914, 'High Seas');
 INSERT INTO Container
 VALUES
 ('200007', 9, 8, 20, 7213, 'Wayward Star');
@@ -104,7 +104,7 @@ VALUES
 ('200010', 9, 8, 20, 10002, 'Fair Seas');
 INSERT INTO Container
 VALUES
-('100002', 9, 8, 20, 5632, 'Sea Dragon');
+('100002', 9, 8, 10, 5632, 'Sea Dragon');
 INSERT INTO Container
 VALUES
 ('200011', 9, 8, 20, 9890, 'Ever Ace');
@@ -116,7 +116,7 @@ VALUES
 ('200013', 9, 8, 20, 6587, 'Leading Light');
 INSERT INTO Container
 VALUES
-('200014', 9, 8, 20, 11012, 'Angel of Light');
+('200014', 9, 8, 20, 11012, 'Wayward Star');
 INSERT INTO Container
 VALUES
 ('200015', 9, 8, 20, 5936, NULL);
@@ -125,7 +125,25 @@ VALUES
 ('200016', 9, 8, 20, 8254, 'Her Majesty');
 INSERT INTO Container
 VALUES
-('400003', 9, 8, 20, 10000, 'Sea Runner');
+('400003', 9, 8, 40, 12120, 'Sea Runner');
 INSERT INTO Container
 VALUES
-('400004', 9, 8, 20, 13162, 'MeiKong');
+('400004', 9, 8, 40, 13162, 'MeiKong');
+INSERT INTO Container
+VALUES
+('400005', 9, 8, 40, 14150, 'Wayward Star');
+INSERT INTO Container
+VALUES
+('400006', 9, 8, 40, 10162, 'MeiKong');
+INSERT INTO Container
+VALUES
+('100003', 9, 8, 10, 5632, 'Ever Ace');
+INSERT INTO Container
+VALUES
+('100004', 9, 8, 10, 4156, 'Ever Ace');
+INSERT INTO Container
+VALUES
+('100005', 9, 8, 10, 4532, 'Fair Seas');
+INSERT INTO Container
+VALUES
+('100006', 9, 8, 10, 4989, NULL);
