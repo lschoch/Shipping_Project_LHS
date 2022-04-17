@@ -1,68 +1,57 @@
 INSERT INTO Port
 VALUES
-('Port Everglades', 'Fort Lauderdale', 'United States');
+('001', 'Port Everglades', 'Fort Lauderdale', 'United States');
 INSERT INTO Port
 VALUES
-('Port of Los Angeles', 'Los Angeles', 'United States');
+('002', 'Port of Los Angeles', 'Los Angeles', 'United States');
 INSERT INTO Port
 VALUES
-('Port of Seattle', 'Seattle', 'United States');
+('003', 'Port of Seattle', 'Seattle', 'United States');
 INSERT INTO Port
 VALUES
-('Port of Busan', 'Busan', 'South Korea');
+('004', 'Port of Busan', 'Busan', 'South Korea');
 INSERT INTO Port
 VALUES
-('Port Kelang', 'Kuala Lumpur', 'Malaysia');
+('005', 'Port Kelang', 'Kuala Lumpur', 'Malaysia');
 INSERT INTO Port
 VALUES
-('Port of Antwerp', 'Antwerp', 'Belgium');
+('006', 'Port of Antwerp', 'Antwerp', 'Belgium');
 INSERT INTO Port
 VALUES
-('Port of Felixstowe', 'Suffolk', 'United Kingdom');
+('007', 'Port of Felixstowe', 'Suffolk', 'United Kingdom');
 INSERT INTO Ship
 VALUES
-('Ever Ace', 235500, 'Robert Marley', 35, 'Port of Felixstowe', 
-'Suffolk', 'United Kingdom', 2021);
+('Ever Ace', 235500, 'Robert Marley', 35, '007', 2006);
 INSERT INTO Ship
 VALUES
-('Wayward Star', 202000, 'James Madrigal', 25, 'Port of Los Angeles', 'Los Angeles',
-'United States', 1976);
+('Wayward Star', 202000, 'James Madrigal', 25, '002', 1976);
 INSERT INTO Ship
 VALUES
-('Leading Light', 222102, 'Sally Wright', 28, 'Port of Seattle', 'Seattle',
-'United States', 1995);
+('Leading Light', 222102, 'Sally Wright', 28, '003', 1995);
 INSERT INTO Ship
 VALUES
-('Angel of Light', 234555, 'Michael Thomas', 22, 'Port Everglades', 'Fort Lauderdale',
-'United States', 1995);
+('Angel of Light', 234555, 'Michael Thomas', 22, '001', 1995);
 INSERT INTO Ship
 VALUES
-('High Seas', 199000, 'Lawrence Schoch', 32, 'Port of Antwerp', 'Antwerp',
-'Belgium', 2011);
+('High Seas', 199000, 'Lawrence Schoch', 32, '006', 2011);
 INSERT INTO Ship
 VALUES
-('Her Majesty', 202987, 'Mary King', 27, 'Port of Felixstowe', 'Suffolk',
-'United Kingdom', 2002);
+('Her Majesty', 202987, 'Mary King', 27, '007', 2002);
 INSERT INTO Ship
 VALUES
-('Sea Runner', 197090, 'Allen Bean', 32, 'Port Everglades', 'Fort Lauderdale', 
-'United States', 1990);
+('Sea Runner', 197090, 'Allen Bean', 32, '001', 1990);
 INSERT INTO Ship
 VALUES
-('MeiKong', 212312, 'Mei Lei', 34, 'Port Kelang', 'Kuala Lumpur', 
-'Malaysia', 2020);
+('MeiKong', 212312, 'Mei Lei', 34, '005', 2020);
 INSERT INTO Ship
 VALUES
-('Fair Seas', 195000, 'William Baker', 29, 'Port of Busan', 'Busan', 
-'South Korea', 1980);
+('Fair Seas', 195000, 'William Baker', 29, '004', 1980);
 INSERT INTO Ship
 VALUES
-('Sea Dragon', 218998, 'Kim Min Su', 24, 'Port of Busan', 'Busan', 
-'South Korea', 1989);
+('Sea Dragon', 218998, 'Kim Min Su', 24, '004', 1989);
 INSERT INTO Ship
 VALUES
-('HMM Gloria', 187045, 'Rebecca Billingsley', 25, 'Port of Felixstowe', 'Suffolk',
-'United Kingdom', 2010);
+('HMM Gloria', 187045, 'Rebecca Billingsley', 25, '007', 2010);
 INSERT INTO Container
 VALUES
 ('200001', 9, 8, 20, 1914, 'Sea Runner');

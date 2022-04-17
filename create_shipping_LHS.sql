@@ -2,10 +2,11 @@ CREATE DATABASE IF NOT EXISTS shipping;
 USE shipping;
 
 CREATE TABLE IF NOT EXISTS Port (
+  portID CHAR(3) NOT NULL,
   portName VARCHAR(30) NOT NULL,
   portCity VARCHAR(30) NOT NULL,
   portCountry VARCHAR(30) NOT NULL,
-  PRIMARY KEY(portName, portCity, portCountry)
+  PRIMARY KEY(portID)
 );
 
 CREATE TABLE IF NOT EXISTS Ship (
@@ -13,13 +14,11 @@ CREATE TABLE IF NOT EXISTS Ship (
   displacement INTEGER NOT NULL CHECK(displacement > 0),
   captainName VARCHAR(30) NOT NULL,
   numCrew SMALLINT NOT NULL CHECK(numCrew > 0),
-  portName VARCHAR(30) NOT NULL,
-  portCity VARCHAR(30) NOT NULL,
-  portCountry VARCHAR(30) NOT NULL,
+  portID CHAR(3) NOT NULL,
   year SMALLINT NOT NULL CHECK(year > 999 AND year < 9999),
   PRIMARY KEY(shipName),
-  FOREIGN KEY(portName, portCity, portCountry) 
-  REFERENCES Port(portName, portCity, portCountry)
+  FOREIGN KEY(portID) 
+  REFERENCES Port(portID)
 );
 
 CREATE TABLE IF NOT EXISTS Container (
